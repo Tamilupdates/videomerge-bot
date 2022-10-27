@@ -1,5 +1,3 @@
-# (c) @AbirHasan2005
-
 import asyncio
 from helpers.database.access_db import db
 from pyrogram.errors import MessageNotModified, FloodWait
