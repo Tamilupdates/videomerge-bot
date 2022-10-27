@@ -26,11 +26,6 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                     "Uploading Video ...",
                     cb.message,
                     c_time
-                ),
-                reply_markup=InlineKeyboardMarkup(
-                    [
-                        [InlineKeyboardButton("Developer - @Nanthakps", url="https://t.me/Nanthakps")]
-                    ]
                 )
             )
         else:
@@ -45,11 +40,6 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                     "Uploading Video ...",
                     cb.message,
                     c_time
-                ),
-                reply_markup=InlineKeyboardMarkup(
-                    [
-                        [InlineKeyboardButton("Developer - @Nanthakps", url="https://t.me/Nanthakps")]
-                    ]
                 )
             )
         await asyncio.sleep(Config.TIME_GAP)

@@ -1,5 +1,5 @@
 # VideoMerge-Bot
-This is very simple Telegram Videos Merge Bot by [@Nanthakps](https://t.me/Nanthakps). Using FFmpeg for Merging Videos.
+This is very simple Telegram Videos Merge Bot by [@Tamilupdates](https://github.com/tamilupdates). Using FFmpeg for Merging Videos.
 
 ## Features:
 - Merge Multiple Videos.
